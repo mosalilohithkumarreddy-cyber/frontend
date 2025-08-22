@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+  <table bgcolor="lightblue" width="100%">
+        <tr>
+            <td align="center">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/77/Telangana_State_Road_Transport_Corporation_logo.png" width="40" height="40">
+                <p><b>TELANGANA STATE ROAD TRANSPORT CORPORATION</b></p>
+                <p><b>GENERAL BUS PASS APPLICATION</b></p>
+            </td>
+        </tr>
+        <br>
+  </table>
+  <br>
+  <form action="submit.html">
+    <fieldset>
+        <legend style="color: white; background-color: blue;">
+            Applicant Details
+        </legend>
+        <table>
+            <tr>
+                <td width="50%">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </td>
+                <td width="50%">
+                    <label for="fathername">Father Name:</label>
+                    <input type="text" id="fathername" name="fathername">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Date">Date of Birth:</label>
+                    <input type="date" id="Date" name="Date of Birth">
+                </td>
+                <td>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male"> 
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female"> 
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="whatsapp">WhatsApp:</label>
+                    <input type="tel" id="whatsapp" name="whatsapp">
+                </td>
+                <td>
+                    <label for="Aadhar">Aadhar No:</label>
+                    <input type="text" id="Aadhar" name="Aadhar" maxlength="12">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">Photo:</label>
+                    <input type="file" id="photo" name="photo">
+                </td>
+                <td>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="color: white; background-color: blue;">
+            Residential Address Details
+        </legend>
+        <table>
+            <tr>
+                <td>
+                    <lable>Applicant's Address:</lable>
+                    <textarea>
+                    </textarea>
+                </td>
+                <td>
+                    <lable for="dist">District:</lable>
+                    <select name="District" id="dist">
+                        <option>Hyderabad</option>
+                        <option>Nizamabad</option>
+                        <option>Varangal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Mandal">Mandal:</lable>
+                    <select name="Mandal" id="Mandal">
+                        <option>Hyderabad</option>
+                        <option>Nizamabad</option>
+                        <option>Varangal</option>
+                    </select>
+                </td>
+                <td>
+                    <lable for="Village">Village:</lable>
+                    <select name="Village" id="Village">
+                        <option>Hyderabad</option>
+                        <option>Nizamabad</option>
+                        <option>Varangal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="code">Pincode:</lable>
+                    <input type="text" id="code" name="Pincode" maxlength="6">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="color: white; background-color: blue;">
+            Pass Type Details
+        </legend>
+        <table>
+            <tr>
+                <td>
+                    <lable for="city">City:</lable>
+                    <select name="City" id="city">
+                        <option>Hyderabad</option>
+                        <option>Nizamabad</option>
+                        <option>Varangal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="pass">Pass Type:</lable>
+                     <select name="Pass type" id="pass">
+                        <option>------Select------</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="color: white; background-color: blue;">
+            Mode of Payment & Pass COllection
+        </legend>
+        <table>
+            <tr>
+                <td>
+                  <lable for="pay">Payment Mode:</lable>
+                     <select name="Payment Mode" id="pay">
+                        <option>Select Payment Mode</option>
+                    </select>  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Delivery">Pass Delivery Mode:</lable>
+                     <select name="Pass Delivery Mode" id="Delivery">
+                        <option>Select Pass Delivery Mode</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="collect">Center at which you want to collect pass:</lable>
+                     <select name="Center at which you want to collect pass" id="collect">
+                        <option>------Select------</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <center>
+    <img src="../images/pic2.png">
+    <br><br>
+    <input type="text">
+    <br><br>
+    <input type="submit" name="submit">
+    <br><br><br><br>
+    </center>
+  </form>
+</body>
+</html>
